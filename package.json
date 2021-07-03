@@ -1,0 +1,16 @@
+{
+  "name": "profile",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.0.0-beta.2",
+    "parcel-bundler": "^1.12.5"
+  },
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.0.0-beta.2"
+  }
+}

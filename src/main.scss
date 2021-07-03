@@ -1,0 +1,111 @@
+body{
+    background: rgb(205,185,214);
+    background: linear-gradient(0deg, rgba(205,185,214,1) 0%, rgba(247,175,159,1) 100%);
+    background-repeat: no-repeat;
+    height: auto;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'Zen Loop', cursive;
+    font-size: 25px;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    color: black;
+}
+.slide{
+    width: 200px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: black;
+    overflow: hidden;
+    border: 5px solid lightblue ;
+    border-radius: 50px;
+}
+.slide figure img{
+    width: 200px;
+    height: 300px;
+    float: left;
+}
+.slide figure{
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0px;
+    animation: muk 5s infinite linear;
+}
+@keyframes muk{
+    0%{left: 0px;}
+    20%{left: 0px;}
+    30%{left: -200px;}
+    40%{left: -200px;}
+    50%{left: -200px;}
+    60%{left: -200px;}
+    70%{left: -400px;}
+    80%{left: -400px;}
+    90%{left: -400px;}
+    100%{left: -400px;}
+}
+.container{
+    max-width: 600px;
+    margin-top: 50px;
+    margin: 0 auto;
+    font-family: 'Zen Loop', cursive;
+}
+.name{   
+    font-family: 'Zen Loop', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+}
+.social-img ul{
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 50px;
+    margin-top: 15px;
+}
+.social-img ul li{
+    display: inline;
+    background: rgba(204,204,204,0.5);
+    padding: 10px;
+    border-radius: 40%;
+    cursor: pointer;
+    transition: background 150ms ease-in-out;
+}
+.social-img ul li:hover{
+    background: #ccc;
+}
+.Bio{   
+    font-size: 20px;
+}
+.footer{  
+    font-size: 20px;
+}
+h5{
+    font-family: 'Zen Loop', cursive;
+    font-size: 30px;
+}
